@@ -114,3 +114,19 @@ button {
     font-weight: 600;
     margin-right: 80px;
 }
+
+.four {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.action-text {
+    border: #3882F6 solid 5px;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 400px;
+    border-radius: 10px;
+}
