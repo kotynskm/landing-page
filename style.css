@@ -52,15 +52,28 @@ button {
     align-items: center;
     gap: 50px;
     padding-bottom: 100px;
-   
 
 }
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .larger-text, .contrast-text {
     max-width: 400px;
 }
 .larger-text {
     font-size: 40px;
     color: white;
+    align-self: flex-start;
+}
+
+button {
+    align-self: flex-start;
 }
 
 .contrast-text {
